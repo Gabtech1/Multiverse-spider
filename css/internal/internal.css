@@ -1,0 +1,135 @@
+@import url('../global/global.css');
+@import url('../components/navigator.css');
+@import url('../components/pills.css');
+@import url('../components/link-btn.css');
+@import url('../components/gallery.css');
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+}
+
+.left-bar {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding-left: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.main-content {
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    padding-left: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.spiderman-01{
+    background-image: url(../../imgs/spiderman-tobey/movie-01/background.webp);
+    background-size: cover;
+}
+
+.spiderman-02{
+    background-image: url(../../imgs/spiderman-tobey/movie-02/background.webp);
+    background-size: cover; 
+}
+
+.spiderman-03{
+    background-image: url(../../imgs/spiderman-tobey/movie-03/background.webp);
+    background-size: cover;
+}
+
+.amz-spiderman-01{
+    background-image: url(../../imgs/spiderman-andrew/movie-01/background.webp);
+    background-size: cover;
+}
+
+.amz-spiderman-02{
+    background-image: url(../../imgs/spiderman-andrew/movie-02/background.webp);
+    background-size: cover; 
+}
+
+.home-01{
+    background-image: url(../../imgs/spiderman-tom/movie-01/background.webp);
+    background-size: cover; 
+}
+
+.home-02{
+    background-image: url(../../imgs/spiderman-tom/movie-02/background.webp);
+    background-size: cover; 
+}
+
+.home-03{
+    background-image: url(../../imgs/spiderman-tom/movie-03/background.webp);
+    background-size: cover; 
+}
+
+.content-top{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 1;
+    align-items: center;
+}
+
+.content-logo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.content-logo img{
+    height: 100px;
+    max-width: 700px;
+}
+
+.content-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgba(0, 0, 0, .8);
+    height: max-content;
+    width: max-content;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.description{
+    background-color: rgba(0, 0, 0, .8);
+    max-width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.description-text{
+    color: #ffffff;
+    line-height: 170%;
+    margin-bottom: 20px;
+}
+
+.links{
+    padding: 5px;
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 20px;
+}
+
+.links a{ 
+    width: max-content;   
+}
